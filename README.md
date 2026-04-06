@@ -2,7 +2,7 @@
 Ce projet implémente un pipeline de données pour l'analyse de logs de sécurité en temps réel.
 ## Choix Architecturaux : Architecture en Médaillon
 J'ai organisé les données en trois couches pour garantir la performance et la qualité :
-- **Bronze** : Données brutes issues du générateur de logs et d'IPSUM.
+- **Bronze** : Données brutes issues du générateur de logs et d'ipsum.
 - **Silver** : Nettoyage et **enrichissement**. C'est ici que je joins les logs avec les IPs malveillantes.
 - **Gold** : Tables agrégées pour Power BI (KPIs par protocole, sévérité et heure).
 ## KPI du Dashboard
